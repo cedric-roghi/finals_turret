@@ -1,0 +1,146 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4868659c-0ded-4c53-93b4-2f590666e347")
+	(paper "A4")
+	(title_block
+		(title "Main Page for SubSheets")
+		(date "2025-09-11")
+		(rev "R1")
+		(company "Cedric Roghi")
+	)
+	(lib_symbols)
+	(sheet
+		(at 57.15 125.73)
+		(size 34.29 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "342f94ec-9a5f-4ce9-98fb-c54115bb0bd4")
+		(property "Sheetname" "Power"
+			(at 57.15 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 57.15 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32TurretBrain"
+				(path "/4868659c-0ded-4c53-93b4-2f590666e347"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 125.73)
+		(size 34.29 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6448120f-069a-4cac-844a-59d2f10117c3")
+		(property "Sheetname" "STM32"
+			(at 19.05 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32.kicad_sch"
+			(at 19.05 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32TurretBrain"
+				(path "/4868659c-0ded-4c53-93b4-2f590666e347"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 125.73)
+		(size 35.56 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fbe91eba-2cd6-4d2f-9d81-4b835e1db5c2")
+		(property "Sheetname" "Devices"
+			(at 95.25 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Devices.kicad_sch"
+			(at 95.25 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32TurretBrain"
+				(path "/4868659c-0ded-4c53-93b4-2f590666e347"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
