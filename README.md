@@ -48,9 +48,12 @@ I assembled this PCB by hand using a soldering iron but I would recommend using 
 - Audio playback using a dfplayer mini
 - Programmable using SWD or USB
 - USB serial communications for debugging or remote control
+- USB C (2.0)
 - Power input 5-12V (can use a normal 12V router power cable)
 - Reverse polarity protection
 - Buck converter from input stepped down to 5V for efficiency.
+- Two PWM output ports to control servo motors.
+- Lots of extra exposed MCU pins for rework(if needed).
 
 ## Future_Additions
 - Raspberry pi python code for tracking people with a camera
