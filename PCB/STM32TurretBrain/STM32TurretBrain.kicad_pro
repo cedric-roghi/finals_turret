@@ -530,7 +530,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "STM32TurretBrain.step",
       "svg": "",
       "vrml": ""
     },
