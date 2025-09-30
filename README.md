@@ -9,6 +9,7 @@ A project for the hardware and software of a simple turret replica from the grea
 - [Features](#features)
 - [Future_Additions](#future_additions)
 - [Configuration](#configuration)
+- [Known_Issues](#known_issues)
 
 ## Requirements
 - Software:
@@ -34,12 +35,17 @@ Here is the original model from the finals that the project is based on.
 And here is my design made in Freecad.
 ![Turret Assembly](/Pictures/Assembly.png)
 
-Its not yet optimised for 3D printing but I believe its possible to make small changes to reduce the ammount of support without affecting the looks.
+Its not yet optimized for 3D printing but I believe its possible to make small changes to reduce the amount of support without affecting the looks.
 
 FInally here is the brains of the project.
 ![PCB](/Pictures/AssembledPCB.jpg)
 
-I assembled this PCB by hand using a soldering iron but I would recommend using assembly services from a manufacturor like JLCPCB.
+I assembled this PCB by hand using a soldering iron but I would recommend using assembly services from a manufacturer like JLCPCB. Dont forget to use a generous amount of flux if soldering the stm32 by hand.
+
+This is how the PCB should fit into the turret. The whole thing uses M2.5 5mm screws for the speaker mounting and PCB mounting.
+![PCB in enclosure](/Pictures/PCB_IN_Enclosure.jpg)
+
+The servos mounting positions have mounting holes that should work with the self tapping mounting screws that are usually provided with 9g servos. The servo should be oriented so that the output rotation is in the same axis as the center of rotation for the pan and tilt respectively.
 
 ## Usage
 
@@ -53,10 +59,15 @@ I assembled this PCB by hand using a soldering iron but I would recommend using 
 - Reverse polarity protection
 - Buck converter from input stepped down to 5V for efficiency.
 - Two PWM output ports to control servo motors.
-- Lots of extra exposed MCU pins for rework(if needed).
+- Lots of extra exposed MCU pins for rework or future quick additions.
+- Potentiometer for volume control
 
 ## Future_Additions
 - Raspberry pi python code for tracking people with a camera
 - New and improved PCB with its own on board audio amplifier + SD card slot or some other form of audio storage
 
 ## Configuration
+
+## Known Issues
+- The standoff for the dfplayer mini is the wrong way around.
+- The port for the USB and barrel jack connector should be at the back and not the side.
