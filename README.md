@@ -2,7 +2,8 @@
 A project for the hardware and software of a simple turret replica from the greatest game show on earth, The Finals.
 
 ## Table of Contents
-- [Requirements] (#requirements)
+- [Requirements](#requirements)
+- [Rationale](#rationale)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
@@ -17,6 +18,10 @@ A project for the hardware and software of a simple turret replica from the grea
 - Hardware:
     - BOM to come
     - Access to a 3D printer
+
+## Rationale
+- STM32f411:
+    - This is a pretty overkill MCU for a project such as this. It even features I2S protocol which would make it possible for me to replace the dfplayer mini module with my own custom on board audio amplifier. The whole reason to go with this 100MHz MCU is because I want to use it for a drone project so I am testing if it works as expected first with this project. It also makes things faster for the drone project if I can copy and paste the schematic.
 
 ## Installation
 No code to show yet.
@@ -43,6 +48,9 @@ I assembled this PCB by hand using a soldering iron but I would recommend using 
 - Audio playback using a dfplayer mini
 - Programmable using SWD or USB
 - USB serial communications for debugging or remote control
+- Power input 5-12V (can use a normal 12V router power cable)
+- Reverse polarity protection
+- Buck converter from input stepped down to 5V for efficiency.
 
 ## Future_Additions
 - Raspberry pi python code for tracking people with a camera
