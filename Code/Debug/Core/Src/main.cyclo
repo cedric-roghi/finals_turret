@@ -1,0 +1,13 @@
+../Core/Src/main.c:85:5:main	1
+../Core/Src/main.c:169:6:SystemClock_Config	3
+../Core/Src/main.c:215:13:MX_ADC1_Init	3
+../Core/Src/main.c:267:13:MX_TIM1_Init	8
+../Core/Src/main.c:346:13:MX_USART1_UART_Init	2
+../Core/Src/main.c:379:13:MX_USB_OTG_FS_PCD_Init	2
+../Core/Src/main.c:414:13:MX_GPIO_Init	1
+../Core/Src/main.c:442:17:AngleToCCR	2
+../Core/Src/main.c:453:6:Pan_Servo_SetAngle	1
+../Core/Src/main.c:458:17:ADC_Value_To_Angle	2
+../Core/Src/main.c:475:6:StartDefaultTask	2
+../Core/Src/main.c:512:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:530:6:Error_Handler	1

@@ -71,3 +71,4 @@ The servos mounting positions have mounting holes that should work with the self
 ## Known Issues
 - The standoff for the dfplayer mini is the wrong way around.
 - The port for the USB and barrel jack connector should be at the back and not the side.
+- The 3.3V LDO large pin is in fact connected to Vout and not GND. I need to fix the footprint in KiCAD.
